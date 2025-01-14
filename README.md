@@ -14,9 +14,9 @@ This repo has the following algorithms that I found as part of my DSA prep. Feel
 - Counting sort (pending)
 - Quick sort (pending)
 - Heap sort (pending)
+- Bucket sort (pending)
 - Tim sort (pending)
 - Radix sort (pending)
-- Bucket sort (pending)
 
 ### Data structures implementation
 - Linked List (pending)
@@ -25,7 +25,7 @@ This repo has the following algorithms that I found as part of my DSA prep. Feel
 - Queue (pending)
 - Binary Tree (pending)
 
-## Math algos
+### Math algos
 - Prime number : sieve of eratosthenes (pending)
 - No of perfect Squares (pending)
 
