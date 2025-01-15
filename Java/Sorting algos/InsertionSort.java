@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class InsertionSort {
   public static void main(String[] args){
-    ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(30,13,56,15,12,5,7));
+    ArrayList<Integer> nums = new ArrayList<>(Arrays.asList(30,13,56,15,12,5,7,1));
     sort(nums);
     System.out.println("Sorted array : " + nums);
   }
