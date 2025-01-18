@@ -19,7 +19,7 @@ This repo has the following algorithms that I found as part of my DSA prep. Feel
 - Radix sort (pending)
 
 ### Data structures implementation
-- Linked List (pending)
+- Linked List
 - Doubly Linked List (pending)
 - Stack (pending)
 - Queue (pending)

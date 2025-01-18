@@ -1,24 +1,24 @@
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
-class LinearSearch{
+public class LinearSearch {
   public static void main(String[] args){
-    ArrayList<Integer> nums = new ArrayList<Integer>(Arrays.asList(1,2,3,4,5,6,7,8,9));
+    int[] nums = {2,3,5,12,35,56};
     Scanner myScanner = new Scanner(System.in);
     System.out.print("Enter number to search : ");
-    int searchNum = myScanner.nextInt();
+    int num = myScanner.nextInt();
 
-    for (int i=0; i<nums.size(); i++){
-      if(searchNum == nums.get(i)){
-        System.out.println("Found " + searchNum + " at index " + i );
-        break;
-      }
-      else if(i == nums.size()-1){
-        System.out.println(searchNum + " not found in the array");
+    int index = search(nums, num);
+    System.out.println(index!=-1 ? (num + " found at index " + index) : (num + " not found"));
+    
+    myScanner.close();
+  }
+
+  public static int search(int[] nums, int num){
+    for(int i=0; i<nums.length;i++){
+      if(nums[i] == num){
+        return i;
       }
     }
-
-    myScanner.close();
+    return -1;
   }
 }
